@@ -1,32 +1,35 @@
 import "../styles/components/contatoForm.css";
 
 const ContatoForm = () => {
+  const basePath = import.meta.env.BASE_URL; 
+
   const redes = [
     {
       nome: "LinkedIn",
-      imagem: "/linkedin-logo.png",
+      imagem: `${basePath}linkedin-logo.png`,
       link: "https://www.linkedin.com/in/renan-rocha919/",
       descricao: "Conecte-se comigo no LinkedIn",
     },
     {
       nome: "GitHub",
-      imagem: "/github-logo.png",
+      imagem: `${basePath}github-logo.png`,
       link: "https://github.com/Renan0Rocha",
       descricao: "Veja meus projetos no GitHub: Renan0Rocha",
     },
     {
       nome: "Instagram",
-      imagem: "/instagram-logo.png",
+      imagem: `${basePath}instagram-logo.png`,
       link: "https://www.instagram.com/renan_rocha_s",
       descricao: "Me siga no Instagram @renan_rocha_s",
     },
     {
       nome: "E-mail",
-      imagem: "/gmail-logo.png",
+      imagem: `${basePath}gmail-logo.png`,
       link: "mailto:renanro919@gmail.com",
       descricao: "Entre em contato por e-mail: renanro919@gmail.com",
     },
   ];
+  
 
   return (
     <div className="container">
