@@ -4,7 +4,7 @@ import "../styles/components/header.css";
 const Header = () => {
   return (
     <header className="header">
-      <h1>Meu Portfólio</h1>
+      <h1>Dev | Renan Rocha</h1>
       <nav>
   <Link to="/sobreMim">Sobre Mim</Link>
   <Link to="/experiencias">Experiências</Link>
