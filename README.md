@@ -1,8 +1,22 @@
-# React + Vite
+# Portfólio Interativo - Desenvolvedor Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Descrição
+Este é um portfólio pessoal interativo desenvolvido com React e Vite.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
+- React.js
+- Vite
+- React Router
+- CSS (ou TailwindCSS)
+- GitHub Pages (para deploy)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Estrutura do Projeto
+- **Sobre Mim**: Apresentação pessoal.
+- **Habilidades**: Tecnologias que domino.
+- **Projetos**: Lista de projetos desenvolvidos.
+- **Contato**: Formulário e redes sociais.
+
+## 📦 Instalação
+```bash
+npm install
+npm run dev

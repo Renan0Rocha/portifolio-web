@@ -1,0 +1,50 @@
+.container {
+  text-align: center;
+}
+
+.redes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.rede-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+  color: black;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  width: 300px;
+}
+
+.rede-item:hover {
+  transform: scale(1.05);
+}
+
+.rede-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.rede-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.rede-info h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.rede-info p {
+  margin: 2px 0 0;
+  font-size: 14px;
+  color: gray;
+}

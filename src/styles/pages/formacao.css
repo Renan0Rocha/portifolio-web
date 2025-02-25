@@ -1,0 +1,14 @@
+.container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container h2 {
+    color: #007bff;
+  }
+  
+  .container p {
+    font-size: 18px;
+    color: #666;
+  }
+  
